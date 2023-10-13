@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    margin-top: 20px;
+}
+
+#about, #solutions, #blog, #contact {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+#about img, #solutions img, #blog img {
+    max-width: 50%;
+}
+
+#about div, #solutions div, #blog div {
+    flex: 1;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 10px;
+}
